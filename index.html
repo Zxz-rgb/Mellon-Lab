@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#070907">
+    <meta name="description" content="面向 Game、HCI、UI/UX 与 VR/AR 方向的作品集服务与导师介绍。">
+    <title>作品集项目服务</title>
+    <link rel="stylesheet" href="styles.css?v=20261015-8">
+    <script src="script.js?v=20261015-4" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero" aria-labelledby="page-title">
+        <p class="eyebrow"><span aria-hidden="true"></span>Portfolio Project Services</p>
+        <h1 id="page-title">作品集项目<br><em>服务与导师</em></h1>
+        <p class="hero__intro">
+          面向 Game / HCI / UI/UX / VR·AR / XR 方向申请，以轻量团队协作提供咨询、排版、定制开发与项目匹配。
+        </p>
+        <ul class="school-list" aria-label="相关院校">
+          <li>CMU</li>
+          <li>NYU</li>
+          <li>UCB</li>
+          <li>USC</li>
+          <li>UW</li>
+          <li>NTU</li>
+          <li>HKU</li>
+        </ul>
+      </header>
+
+      <section class="service-preview" aria-labelledby="service-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-heading__index">01 — Services</p>
+            <h2 id="service-title">Service Preview</h2>
+          </div>
+          <p>横向拖动 · 点击中心卡片</p>
+        </div>
+
+        <div class="carousel" id="serviceCarousel" tabindex="0" aria-label="服务项目横向预览">
+          <a class="service-card" href="services/consultation.html" data-card-index="0" aria-label="免费初步咨询，30 分钟，免费">
+            <span class="service-card__topline"><b>01</b><small>CONSULTATION</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">免费<br>初步咨询</span>
+              <span class="service-card__description">了解申请方向与项目需求，展示过往案例并梳理初步服务方案。</span>
+            </span>
+            <span class="service-card__price"><strong>¥0</strong><small>/ 30 分钟</small></span>
+            <span class="service-card__action">查看服务 <i aria-hidden="true">↗</i></span>
+          </a>
+
+          <a class="service-card service-card--emerald" href="services/writing-session.html" data-card-index="1" aria-label="文书专项会议，每小时 600 元">
+            <span class="service-card__topline"><b>02</b><small>WRITING SESSION</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">文书专项<br>1 对 1</span>
+              <span class="service-card__description">作品集文案、项目故事线、个人陈述、艺术家陈述与面试模拟。</span>
+            </span>
+            <span class="service-card__price"><strong>¥600</strong><small>/ 小时</small></span>
+            <span class="service-card__action">查看服务 <i aria-hidden="true">↗</i></span>
+          </a>
+
+          <a class="service-card" href="services/portfolio-layout.html" data-card-index="2" aria-label="单项目作品集排版，5 页 3000 元">
+            <span class="service-card__topline"><b>03</b><small>PORTFOLIO LAYOUT</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">单项目<br>作品集排版</span>
+              <span class="service-card__description">页面设计、版式布局与图文排布；客户需提供完整项目素材。</span>
+            </span>
+            <span class="service-card__price"><strong>¥3,000 +</strong><small>/ 5 页</small></span>
+            <span class="service-card__action">查看服务 <i aria-hidden="true">↗</i></span>
+          </a>
+
+          <a class="service-card service-card--emerald" href="services/rush-development.html" data-card-index="3" aria-label="一周加急定制开发，25000 元">
+            <span class="service-card__topline"><b>04</b><small>RUSH DEVELOPMENT</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">一周加急<br>定制开发</span>
+              <span class="service-card__description">游戏 / XR 交互项目定制，适合申请节点明确的紧急开发需求。</span>
+            </span>
+            <span class="service-card__price"><strong>¥25,000 +</strong><small>/ 1 周</small></span>
+            <span class="service-card__action">查看服务 <i aria-hidden="true">↗</i></span>
+          </a>
+
+          <a class="service-card" href="services/monthly-development.html" data-card-index="4" aria-label="月度定制开发，每月 20000 元">
+            <span class="service-card__topline"><b>05</b><small>MONTHLY CUSTOM</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">月度<br>定制开发</span>
+              <span class="service-card__description">完整项目开发周期，含团队协作与阶段性交付，不含最终排版。</span>
+            </span>
+            <span class="service-card__price"><strong>¥20,000 +</strong><small>/ 月</small></span>
+            <span class="service-card__action">查看服务 <i aria-hidden="true">↗</i></span>
+          </a>
+
+          <a class="service-card service-card--emerald is-active" href="services/portfolio-mentorship.html" data-card-index="5" aria-label="单项目作品集辅导，每个项目 15000 元">
+            <span class="service-card__topline"><b>06</b><small>PROJECT MENTORSHIP</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">单项目<br>作品集辅导</span>
+              <span class="service-card__description">从选题、研究、原型到叙事呈现，围绕一个项目完成系统化迭代。</span>
+            </span>
+            <span class="service-card__price"><strong>¥15,000</strong><small>/ 项目</small></span>
+            <span class="service-card__action">查看服务 <i aria-hidden="true">↗</i></span>
+          </a>
+        </div>
+
+        <div class="carousel-status" aria-hidden="true">
+          <span class="carousel-status__line"></span>
+          <p>Swipe to inspect</p>
+          <strong id="carouselCount">06 / 06</strong>
+        </div>
+      </section>
+
+      <section class="service-preview mentors" aria-labelledby="mentor-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-heading__index">02 — Mentors</p>
+            <h2 id="mentor-title">Mentor Preview</h2>
+          </div>
+          <p>横向拖动 · 点击中心卡片</p>
+        </div>
+
+        <div class="carousel" id="mentorCarousel" tabindex="0" aria-label="导师横向预览">
+          <a class="service-card service-card--emerald" href="https://xizhe3818.wixsite.com/xizhezhang" target="_blank" rel="noopener noreferrer" aria-label="查看 Zach 老师个人网页（新窗口打开）">
+            <span class="service-card__topline"><b>01</b><small>PM · NARRATIVE DESIGN</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">Zach</span>
+              <span class="service-card__description">北京电影学院影视美术设计本科 <br> UCB / USC / NYU / CMU / NTU 录取</span>
+            </span>
+            <span class="service-card__price"><strong>CMU</strong><small>/ ETC</small></span>
+            <span class="service-card__action">Profile <i aria-hidden="true">↗</i></span>
+          </a>
+
+          <a class="service-card" href="https://www.shuruiliportfolio.com" target="_blank" rel="noopener noreferrer" aria-label="查看 Suri 老师个人网页（新窗口打开）">
+            <span class="service-card__topline"><b>02</b><small>UI / UX</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">Suri</span>
+              <span class="service-card__description">天津工业大学产品设计本科 <br> NYU IDM 全额奖学金 · UW / USC 录取</span>
+            </span>
+            <span class="service-card__price"><strong>CMU</strong><small>/ ETC-CTP</small></span>
+            <span class="service-card__action">Profile <i aria-hidden="true">↗</i></span>
+          </a>
+
+          <a class="service-card service-card--emerald is-active" href="https://itsnotming.wixsite.com/gamedesignportfolio" target="_blank" rel="noopener noreferrer" aria-label="查看 Ming 老师个人网页（新窗口打开）">
+            <span class="service-card__topline"><b>03</b><small>HCI · ACI</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">Ming</span>
+              <span class="service-card__description">应用数学美本 · 哥伦比亚大学应用数学硕士 <br>  NYU / USC / Columbia / CMU 录取</span>
+            </span>
+            <span class="service-card__price"><strong>CMU</strong><small>/ ETC</small></span>
+            <span class="service-card__action">Profile <i aria-hidden="true">↗</i></span>
+          </a>
+
+          <a class="service-card" href="https://chenfeiliu.com/" target="_blank" rel="noopener noreferrer" aria-label="查看 Diamond 老师个人网页（新窗口打开）">
+            <span class="service-card__topline"><b>04</b><small>VR / AR</small></span>
+            <span class="service-card__body">
+              <span class="service-card__title">Diamond</span>
+              <span class="service-card__description">上海科技大学本科 <br> UCB / NYU / CMU / UW / HKU 录取</span>
+            </span>
+            <span class="service-card__price"><strong>CMU</strong><small>/ ETC-CTP</small></span>
+            <span class="service-card__action">Profile <i aria-hidden="true">↗</i></span>
+          </a>
+        </div>
+        <div class="carousel-status" aria-hidden="true">
+          <span class="carousel-status__line"></span>
+          <p>Swipe to inspect</p>
+          <strong id="mentorCarouselCount">03 / 04</strong>
+        </div>
+      </section>
+
+      <section class="program-explorer" aria-labelledby="program-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-heading__index">03 — Programs</p>
+            <h2 id="program-title">Program Index</h2>
+          </div>
+          <p>横向拖动 · 点击中心卡片</p>
+        </div>
+
+        <div class="program-stage">
+          <div class="program-carousel" id="programCarousel" tabindex="0" aria-label="院校专业官网入口">
+            <a class="program-card" href="https://mhcid.uw.edu/" target="_blank" rel="noopener noreferrer" data-school="University of Washington" data-program="MHCI+D · Human-Computer Interaction + Design" data-search="uw university washington 华盛顿大学 mhci+d human computer interaction design ux" aria-label="打开 UW MHCI+D 官方网站">
+              <span class="program-card__index">01</span><span class="program-card__school">UW</span><strong>MHCI+D</strong><small>Interaction + Design</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.hcde.washington.edu/ms" target="_blank" rel="noopener noreferrer" data-school="University of Washington" data-program="MS HCDE · Human Centered Design & Engineering" data-search="uw university washington 华盛顿大学 hcde human centered design engineering ux" aria-label="打开 UW HCDE 官方网站">
+              <span class="program-card__index">02</span><span class="program-card__school">UW</span><strong>HCDE</strong><small>Human Centered Design</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://games.utah.edu/prospective-students/master-of-entertainment-arts-and-engineering/" target="_blank" rel="noopener noreferrer" data-school="University of Utah" data-program="MEAE · Master of Entertainment Arts and Engineering" data-search="utah 犹他大学 meae game design 游戏 entertainment arts engineering" aria-label="打开 University of Utah MEAE 官方网站">
+              <span class="program-card__index">03</span><span class="program-card__school">UTAH</span><strong>MEAE</strong><small>Games · Five Tracks</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://engineering.nyu.edu/academics/programs/integrated-design-media-ms" target="_blank" rel="noopener noreferrer" data-school="New York University" data-program="MS IDM · Integrated Design & Media" data-search="nyu new york university 纽约大学 idm integrated design media ux xr" aria-label="打开 NYU IDM 官方网站">
+              <span class="program-card__index">04</span><span class="program-card__school">NYU</span><strong>IDM</strong><small>Integrated Design & Media</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://itp.nyu.edu/itp/itp-graduate-admissions/" target="_blank" rel="noopener noreferrer" data-school="New York University" data-program="MPS ITP · Interactive Telecommunications" data-search="nyu new york university 纽约大学 itp interactive telecommunications creative technology" aria-label="打开 NYU ITP 官方网站">
+              <span class="program-card__index">05</span><span class="program-card__school">NYU</span><strong>ITP</strong><small>Interactive Telecommunications</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://cinema.usc.edu/interactive/" target="_blank" rel="noopener noreferrer" data-school="University of Southern California" data-program="MFA · Interactive Media & Games" data-search="usc university southern california 南加州大学 mfa interactive media games game design" aria-label="打开 USC Interactive Media and Games MFA 官方网站">
+              <span class="program-card__index">06</span><span class="program-card__school">USC</span><strong>MFA IMG</strong><small>Interactive Media & Games</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://games.usc.edu/degrees" target="_blank" rel="noopener noreferrer" data-school="University of Southern California" data-program="MS · Game Design and Development" data-search="usc university southern california 南加州大学 ms game design development 游戏" aria-label="打开 USC Game Design and Development 官方网站">
+              <span class="program-card__index">07</span><span class="program-card__school">USC</span><strong>MS GDD</strong><small>Game Design & Development</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.cs.usc.edu/academic-programs/masters/game-development/" target="_blank" rel="noopener noreferrer" data-school="University of Southern California" data-program="MSCS · Game Development" data-search="usc university southern california 南加州大学 mscs game development computer science 游戏开发" aria-label="打开 USC Computer Science Game Development 官方网站">
+              <span class="program-card__index">08</span><span class="program-card__school">USC</span><strong>MSCS</strong><small>Game Development</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://design.berkeley.edu/admissions" target="_blank" rel="noopener noreferrer" data-school="University of California, Berkeley" data-program="MDes · Emerging Technology and Design" data-search="uc berkeley ucb 加州大学伯克利 mdes emerging technology design interaction" aria-label="打开 UC Berkeley MDes 官方网站">
+              <span class="program-card__index">09</span><span class="program-card__school">UCB</span><strong>MDes</strong><small>Emerging Technology</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://design.cmu.edu/admissions/masters-program-admissions" target="_blank" rel="noopener noreferrer" data-school="Carnegie Mellon University" data-program="MDes · Design for Interactions" data-search="cmu carnegie mellon 卡内基梅隆 mdes interaction design 交互设计" aria-label="打开 CMU MDes 官方网站">
+              <span class="program-card__index">10</span><span class="program-card__school">CMU</span><strong>MDes</strong><small>Design for Interactions</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.hcii.cmu.edu/academics/mhci" target="_blank" rel="noopener noreferrer" data-school="Carnegie Mellon University" data-program="MHCI · Human-Computer Interaction" data-search="cmu carnegie mellon 卡内基梅隆 人机交互 mhci hci" aria-label="打开 CMU MHCI 官方网站">
+              <span class="program-card__index">11</span><span class="program-card__school">CMU</span><strong>MHCI</strong><small>Human-Computer Interaction</small><i>↗</i>
+            </a>
+            <a class="program-card is-active" href="https://etc.cmu.edu/" target="_blank" rel="noopener noreferrer" data-school="Carnegie Mellon University" data-program="MET · Entertainment Technology Center" data-search="cmu carnegie mellon 卡内基梅隆 etc met 娱乐科技 游戏 xr" aria-label="打开 CMU ETC 官方网站">
+              <span class="program-card__index">12</span><span class="program-card__school">CMU</span><strong>ETC</strong><small>Entertainment Technology</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.cmu.edu/ctp/education/etc-transformational-play.html" target="_blank" rel="noopener noreferrer" data-school="Carnegie Mellon University" data-program="ETC × CTP · Transformational Play" data-search="cmu carnegie mellon 卡内基梅隆 ctp transformational play 转化型游戏" aria-label="打开 CMU ETC CTP 官方网站">
+              <span class="program-card__index">13</span><span class="program-card__school">CMU</span><strong>CTP</strong><small>Transformational Play</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://master.cds.hku.hk/msccs/" target="_blank" rel="noopener noreferrer" data-school="The University of Hong Kong" data-program="MSc CS · Multimedia Computing" data-search="hku university of hong kong 香港大学 港大 multimedia computing user interface hci" aria-label="打开香港大学 MSc Computer Science 官方网站">
+              <span class="program-card__index">14</span><span class="program-card__school">HKU</span><strong>MSc CS</strong><small>Multimedia Computing</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.ntu.edu.sg/spms/admissions/grad/detail/master-in-science-in-information-systems" target="_blank" rel="noopener noreferrer" data-school="Nanyang Technological University" data-program="MSIS · Information Systems" data-search="ntu nanyang technological university 南洋理工 南阳理工 msis information systems hci human ai interaction" aria-label="打开南洋理工大学 MSIS 官方网站">
+              <span class="program-card__index">15</span><span class="program-card__school">NTU</span><strong>MSIS</strong><small>HCI · Human–AI Interaction</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.ntu.edu.sg/adm/programmes/graduate-admissions/msc-in-game-design-art-and-technology" target="_blank" rel="noopener noreferrer" data-school="Nanyang Technological University" data-program="MSc GDAT · Game Design, Art & Technology" data-search="ntu nanyang technological university 南洋理工 南阳理工 game design art technology 游戏 hci" aria-label="打开南洋理工大学 MSc Game Design Art and Technology 官方网站">
+              <span class="program-card__index">16</span><span class="program-card__school">NTU</span><strong>MSc GDAT</strong><small>Game Design, Art & Technology</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://isd.hkust.edu.hk/academics/meng-in-design-intel/" target="_blank" rel="noopener noreferrer" data-school="Hong Kong University of Science and Technology" data-program="MEng DI · Design Intelligence" data-search="hkust hong kong university science technology 香港科技大学 港科大 meng design intelligence ai human centered" aria-label="打开香港科技大学 MEng Design Intelligence 官方网站">
+              <span class="program-card__index">17</span><span class="program-card__school">HKUST</span><strong>MEng DI</strong><small>Design Intelligence</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://cde.nus.edu.sg/dd/mdes/" target="_blank" rel="noopener noreferrer" data-school="National University of Singapore" data-program="MDes · Integrated Design" data-search="nus national university singapore 新加坡国立 国大 mdes integrated design interaction service experience" aria-label="打开新加坡国立大学 MDes 官方网站">
+              <span class="program-card__index">18</span><span class="program-card__school">NUS</span><strong>MDes</strong><small>Integrated Design</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://mshci.gatech.edu/" target="_blank" rel="noopener noreferrer" data-school="Georgia Institute of Technology" data-program="MS-HCI · Human-Computer Interaction" data-search="georgia tech gatech 佐治亚理工 ms hci human computer interaction ux" aria-label="打开 Georgia Tech MS-HCI 官方网站">
+              <span class="program-card__index">19</span><span class="program-card__school">GEORGIA TECH</span><strong>MS-HCI</strong><small>Four-School HCI Program</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://si.umich.edu/programs/degree-programs/master-science-information/curriculum/user-experience-research-and-design" target="_blank" rel="noopener noreferrer" data-school="University of Michigan" data-program="MSI · UX Research & Design" data-search="university michigan umich 密歇根大学 msi ux research design user experience" aria-label="打开 University of Michigan MSI UX 官方网站">
+              <span class="program-card__index">20</span><span class="program-card__school">MICHIGAN</span><strong>MSI · UX</strong><small>UX Research & Design</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.pratt.edu/information/information-experience-design/" target="_blank" rel="noopener noreferrer" data-school="Pratt Institute" data-program="MS IXD · Information Experience Design" data-search="pratt 普瑞特 ms ixd information experience design ux interaction" aria-label="打开 Pratt MS Information Experience Design 官方网站">
+              <span class="program-card__index">21</span><span class="program-card__school">PRATT</span><strong>MS IXD</strong><small>Information Experience Design</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://handbooks.artcenter.edu/artcenter-catalog/program-requirements/graduate-programs/graduate-interaction-design" target="_blank" rel="noopener noreferrer" data-school="ArtCenter College of Design" data-program="MDes · Interaction Design" data-search="artcenter 艺术中心设计学院 mdes interaction design ixd ux" aria-label="打开 ArtCenter MDes Interaction Design 官方网站">
+              <span class="program-card__index">22</span><span class="program-card__school">ARTCENTER</span><strong>MDes IXD</strong><small>Interaction Design</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.newschool.edu/parsons/academics-home/graduate-home/design-and-technology-mfa-home/mfa-design-technology/" target="_blank" rel="noopener noreferrer" data-school="Parsons School of Design" data-program="MFA · Design & Technology" data-search="parsons new school 帕森斯 mfa design technology creative computation interaction ux" aria-label="打开 Parsons MFA Design and Technology 官方网站">
+              <span class="program-card__index">23</span><span class="program-card__school">PARSONS</span><strong>MFA DT</strong><small>Design & Technology</small><i>↗</i>
+            </a>
+            <a class="program-card" href="https://www.gsd.harvard.edu/offices-and-facilities/advanced-studies-programs/programs/design-studies/" target="_blank" rel="noopener noreferrer" data-school="Harvard University Graduate School of Design" data-program="MDes · Master in Design Studies" data-search="harvard 哈佛大学 gsd mdes master design studies ecologies mediums narratives publics design research" aria-label="打开 Harvard GSD Master in Design Studies 官方网站">
+              <span class="program-card__index">24</span><span class="program-card__school">HARVARD GSD</span><strong>MDes</strong><small>Master in Design Studies</small><i>↗</i>
+            </a>
+          </div>
+
+          <div class="program-search" role="search">
+            <label for="programSearch">搜索院校 / 专业</label>
+            <div class="program-search__field">
+              <span aria-hidden="true">⌕</span>
+              <input id="programSearch" type="search" inputmode="search" autocomplete="off" placeholder="例如：CMU、香港大学、UX、Game…" aria-controls="programSearchResults" aria-expanded="false">
+              <button id="programSearchClear" type="button" aria-label="清空搜索" hidden>×</button>
+            </div>
+            <div class="program-search__results" id="programSearchResults" role="listbox" aria-label="院校专业搜索结果" hidden></div>
+          </div>
+
+          <div class="program-caption" aria-live="polite">
+            <div class="program-caption__copy">
+              <p id="programSchool">Carnegie Mellon University</p>
+              <strong id="programName">MET · Entertainment Technology Center</strong>
+              <span>点击或向上抽取进入官网 <i aria-hidden="true">↗</i></span>
+            </div>
+            <a class="program-download" href="downloads/creative-tech-program-guide.pdf" download aria-label="下载院校择校清单 PDF">
+              <span>下载院校择校清单</span>
+              <i aria-hidden="true">↓</i>
+            </a>
+          </div>
+
+          <div class="carousel-status program-carousel-status" aria-hidden="true">
+            <span class="carousel-status__line"></span>
+            <p>Swipe to inspect</p>
+            <strong id="programCarouselCount">12 / 24</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="past-projects" aria-labelledby="past-projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-heading__index">04 — Archive</p>
+            <h2 id="past-projects-title">PROJECT PREVIEW</h2>
+          </div>
+          <p>横向拖动 · 点击中心卡片</p>
+        </div>
+
+        <div class="carousel" id="pastProjectCarousel" tabindex="0" aria-label="过去项目分类浏览">
+          <a class="service-card service-card--emerald" href="#" data-placeholder="true" aria-label="浏览 UI/UX 过去项目">
+            <span class="service-card__topline"><b>01</b><small>INTERFACE / EXPERIENCE</small></span>
+            <span class="service-card__body"><span class="service-card__title">UI/UX</span><span class="service-card__description">界面系统、用户路径、交互原型与体验迭代项目。</span></span>
+            <span class="service-card__price"><strong>Digital</strong><small>/ Product</small></span>
+            <span class="service-card__action">View Archive <i aria-hidden="true">↗</i></span>
+          </a>
+          <a class="service-card" href="#" data-placeholder="true" aria-label="浏览 VR/AR 过去项目">
+            <span class="service-card__topline"><b>02</b><small>IMMERSIVE / SPATIAL</small></span>
+            <span class="service-card__body"><span class="service-card__title">VR / AR</span><span class="service-card__description">沉浸式体验、空间交互、原型测试与叙事展示。</span></span>
+            <span class="service-card__price"><strong>XR</strong><small>/ Spatial</small></span>
+            <span class="service-card__action">View Archive <i aria-hidden="true">↗</i></span>
+          </a>
+          <a class="service-card service-card--emerald is-active" href="#" data-placeholder="true" aria-label="浏览 TA 过去项目">
+            <span class="service-card__topline"><b>03</b><small>TECHNICAL ART</small></span>
+            <span class="service-card__body"><span class="service-card__title">TA</span><span class="service-card__description">技术美术、实时渲染、材质系统与制作流程优化。</span></span>
+            <span class="service-card__price"><strong>Realtime</strong><small>/ Pipeline</small></span>
+            <span class="service-card__action">View Archive <i aria-hidden="true">↗</i></span>
+          </a>
+          <a class="service-card" href="#" data-placeholder="true" aria-label="浏览 X-BOX 过去项目">
+            <span class="service-card__topline"><b>04</b><small>GAME / CONSOLE</small></span>
+            <span class="service-card__body"><span class="service-card__title">X-BOX</span><span class="service-card__description">主机游戏体验、玩法原型、关卡叙事与 Demo 展示。</span></span>
+            <span class="service-card__price"><strong>Game</strong><small>/ Console</small></span>
+            <span class="service-card__action">View Archive <i aria-hidden="true">↗</i></span>
+          </a>
+          <a class="service-card service-card--emerald" href="#" data-placeholder="true" aria-label="浏览装置交互过去项目">
+            <span class="service-card__topline"><b>05</b><small>PHYSICAL / INSTALLATION</small></span>
+            <span class="service-card__body"><span class="service-card__title">装置交互</span><span class="service-card__description">传感器、实体媒介、空间反馈与现场体验设计。</span></span>
+            <span class="service-card__price"><strong>Physical</strong><small>/ Computing</small></span>
+            <span class="service-card__action">View Archive <i aria-hidden="true">↗</i></span>
+          </a>
+        </div>
+        <div class="carousel-status" aria-hidden="true">
+          <span class="carousel-status__line"></span>
+          <p>Swipe to inspect</p>
+          <strong id="pastProjectCarouselCount">03 / 05</strong>
+        </div>
+      </section>
+
+      <section class="contact" aria-labelledby="contact-title">
+        <p class="contact__eyebrow">Contact · WeChat</p>
+        <div class="contact__copy">
+          <h2 id="contact-title">开始你的项目</h2>
+          <div class="contact__identity">
+            <span>
+              <strong class="contact__wechat-id">添加微信咨询：imag200333ornot</strong>
+            </span>
+          </div>
+        </div>
+        <a class="program-download contact__download" href="downloads/portfolio-service-quotation.pdf" download aria-label="下载作品集服务报价清单 PDF">
+          <span>下载报价清单</span>
+          <i aria-hidden="true">↓</i>
+        </a>
+      </section>
+
+      <footer>
+        <span>Game · HCI · UI/UX · VR/AR · XR</span>
+        <span>Portfolio Services © 2026</span>
+      </footer>
+    </main>
+
+  </body>
+</html>
